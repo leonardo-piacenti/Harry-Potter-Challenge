@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.banner {
+    background-image: url('../img/banner.jpg');
+    background-position-x: left;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 15px;
+    width:100%;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding:10px 0;
+}
+nav li{
+    padding:0 10vw;
+}
+nav li a{
+    text-decoration: none;
+    color:white;
+}
+
+#why{
+    text-align: center;
+}
+.flex-main{
+    display:flex;
+}
+
+main img{
+    max-width: 100%;
+    height:auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    justify-content: space-evenly;
+    margin:auto;
+}
+
+.item{
+    width:50vw;
+    margin:5vh;
+    font-size: 15px;
+}
+
+
+.testimonials{
+    text-align: center;
+    font-size:18px;
+    margin-bottom: 20px;
+}
+.testimonials h2{
+    padding-bottom: 5vh;
+
+}
+.testimonials p{
+    padding:5vh;
+    font-size:15px; ;
+}
